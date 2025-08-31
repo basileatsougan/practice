@@ -9,4 +9,7 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
+  getBasile(): string {
+    return this.appService.getBasile();
+  }
 }
